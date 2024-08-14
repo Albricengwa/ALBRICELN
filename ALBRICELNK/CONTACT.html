@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="icon" href="ALBRICELNK.jpg" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('ALBRICELNK.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+         nav {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav table {
+            margin: 0 auto;
+        }
+
+        nav td {
+            padding: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f0f0f0;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        p, ul {
+            color: #666;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <table cellspacing="10" cellpadding="10">
+            <tr>
+                <td><a href="HOME.html">HOME</a></td>
+                <td><a href="PORTFOLIO.html">PORTFOLIO</a></td>
+                <td><a href="ABOUT ME.html">ABOUT ME</a></td>
+                <td><a href="CONTACT.html">CONTACT</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <h2>Contact Information</h2>
+    <p>Feel free to reach out via phone or email:</p>
+    <ul>
+        <li>Phone: <a href="tel:+237670542818">+237 670542818</a></li>
+        <li>Email: <a href="mailto:ngwaalbrice@gmail.com">ngwaalbrice@gmail.com</a></li>
+    </ul>
+
+    <h2>Send a Message</h2>
+    <form action="mailto:ngwaalbrice@gmail.com" method="post" enctype="text/plain">
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
